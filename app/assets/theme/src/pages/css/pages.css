@@ -46,7 +46,7 @@ Generated From SASS
 html {
   height: 100%;
 }
-/* Body Triggers for layout options 
+/* Body Triggers for layout options
 ------------------------------------------------------------------
 */
 body {
@@ -141,7 +141,7 @@ body.rtl [class*="col-"] {
   right: 19px;
   left: auto;
 }
-/* Header 
+/* Header
 ------------------------------------
 */
 .header {
@@ -182,7 +182,7 @@ body.rtl [class*="col-"] {
 }
 .header .brand {
   vertical-align: middle;
-  width: 280px;
+  width: 400px;
   text-align: center;
 }
 .header .bubble {
@@ -214,7 +214,7 @@ body.rtl [class*="col-"] {
 .header .search-link:hover {
   opacity: 1;
 }
-/* Bootstrap navbar 
+/* Bootstrap navbar
 ------------------------------------
 */
 .navbar {
@@ -241,7 +241,7 @@ body.rtl [class*="col-"] {
   border-radius: 0;
   background-color: transparent !important;
 }
-/* Main Menu Sidebar 
+/* Main Menu Sidebar
 ------------------------------------
 */
 .page-sidebar {
@@ -532,7 +532,7 @@ body.rtl [class*="col-"] {
 [data-toggle-pin="sidebar"] > i:before {
   content: "\f10c";
 }
-/* Sidebar icon holder 
+/* Sidebar icon holder
 ------------------------------------
 */
 .icon-thumbnail {
@@ -796,7 +796,7 @@ body.rtl [class*="col-"] {
   min-height: 100%;
   margin-left: 250px;
 }
-/* Quick View 
+/* Quick View
 ------------------------------------
 */
 .quickview-wrapper {
@@ -1061,7 +1061,7 @@ body.rtl [class*="col-"] {
 .quickview-wrapper .nav-tabs ~ .tab-content .quickview-notes .note .body .content .quick-note-editor::selection {
   background: #fef8ae;
 }
-/* Page Container 
+/* Page Container
 ------------------------------------
 */
 .page-container {
@@ -1159,7 +1159,7 @@ body.rtl [class*="col-"] {
   font-weight: 300;
   text-shadow: none;
 }
-/* Overlay Search 
+/* Overlay Search
 ------------------------------------
 */
 .overlay {
@@ -1239,7 +1239,7 @@ body.rtl [class*="col-"] {
 .jumbotron h1 {
   font-size: 44px;
 }
-/* Pages Image Icon Sent - Pixel Perfect 
+/* Pages Image Icon Sent - Pixel Perfect
 ------------------------------------
 */
 .icon-set {
