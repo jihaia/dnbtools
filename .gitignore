@@ -20,6 +20,11 @@
 # Ignore Byebug command history file.
 .byebug_history
 
+/public/assets
+.env.*
+
+!.env.example
+
 # Elastic Beanstalk Files
 .elasticbeanstalk/*
 !.elasticbeanstalk/*.cfg.yml

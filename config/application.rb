@@ -13,3 +13,5 @@ module DnbTools
     # -- all .rb files in that directory are automatically loaded.
   end
 end
+
+require 'dnb_tools'
