@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+    <meta charset="utf-8" />
+    <title>Hanumi</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no" />
+    <link rel="apple-touch-icon" href="pages/ico/60.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="<%= image_url 'pages/ico/76.png' %>">
+    <link rel="apple-touch-icon" sizes="120x120" href="<%= image_url 'pages/ico/120.png' %>">
+    <link rel="apple-touch-icon" sizes="152x152" href="<%= image_url 'pages/ico/152.png' %>">
+    <link rel="icon" type="image/x-icon" href="<%= image_url 'favicon.ico' %>" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta content="" name="description" />
+    <meta content="" name="author" />
+
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+
+    <style>
+    .turbolinks-progress-bar {
+      background: #6d5cae;
+    }
+    </style>
+
+  </head>
+  <body class="fixed-header ">
+    <div class="login-wrapper ">
+      <!-- START Login Background Pic Wrapper-->
+      <div class="bg-pic">
+        <!-- START Background Pic-->
+        <%= image_tag "assets/img/demo/new-york-city-buildings-sunrise-morning-hd-wallpaper.jpg", alt: "", class: "lazy" %>
+        <!-- END Background Pic-->
+        <!-- START Background Caption-->
+        <div class="bg-caption pull-bottom sm-pull-bottom text-white p-l-20 m-b-20">
+          <h2 class="semi-bold text-white">
+					Pages make it easy to enjoy what matters the most in the life</h2>
+          <p class="small">
+            images Displayed are solely for representation purposes only, All work copyright of respective owner, otherwise © 2013-2014 REVOX.
+          </p>
+        </div>
+        <!-- END Background Caption-->
+      </div>
+      <!-- END Login Background Pic Wrapper-->
+      <!-- START Login Right Container-->
+      <div class="login-container bg-white">
+        <div class="p-l-50 m-l-20 p-r-50 m-r-20 p-t-50 m-t-30 sm-p-l-15 sm-p-r-15 sm-p-t-40">
+          <%= image_tag "assets/img/logo_2x.png", height: 22, alt: 'logo' %>
+
+          <%= yield %>
+
+          <div class="pull-bottom sm-pull-bottom">
+            <div class="m-b-30  clearfix">
+              <div class="col-sm-3 col-md-2">
+                <%= image_tag "assets/img/demo/pages_icon.png", height: 60, class: "m-t-5 p-r-5" %>
+              </div>
+              <div class="col-sm-9">
+                <p>
+                  <small>
+									Create a pages account. If you have a facebook account, log into it for this
+									process. Sign in with <a href="#" class="text-info">Facebook</a> or <a href="#"
+									                                                                       class="text-info">Google</a>
+								</small>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- END Login Right Container-->
+    </div>
+
+  </body>
+</html>

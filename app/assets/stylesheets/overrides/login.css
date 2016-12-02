@@ -1,0 +1,34 @@
+/*
+LOGIN
+*/
+
+.login-content {
+ background-color: #607D8B;
+ background-size: cover;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+}
+
+.login-content img {
+ width: 70% !important;
+ margin-bottom: 30px;
+}
+
+.lcb-form .fg-line, .lcb-form .help-block {
+ text-align: left;
+}
+
+.lc-block:not(.lc-block-alt) .lcb-form {
+padding: 40px;
+}
+
+.lc-block .checkbox {
+margin: 0;
+text-align: left;
+}
+
+span.input-group-addon.last.text {
+    padding-top: 36px;
+    font-size: 18px !important;
+}

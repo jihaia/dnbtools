@@ -1,15 +1,36 @@
-// This is a manifest file that'll be compiled into application.js, which will include all the files
-// listed below.
-//
-// Any JavaScript/Coffee file within this directory, lib/assets/javascripts, vendor/assets/javascripts,
-// or any plugin's vendor/assets/javascripts directory can be referenced here using a relative path.
-//
-// It's not advisable to add code directly here, but if you do, it'll appear at the bottom of the
-// compiled file. JavaScript code in this file should be added after the last require_* statement.
-//
-// Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
-// about supported directives.
-//
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
+//
+//= require base/plugins/pace/pace.min
+//= require base/plugins/jquery/jquery-1.11.1.min
+//= require base/plugins/modernizr.custom
+//= require base/plugins/jquery-ui/jquery-ui.min
+//= require base/plugins/bootstrapv3/js/bootstrap.min
+//= require base/plugins/jquery/jquery-easy
+//= require base/plugins/jquery-unveil/jquery.unveil.min
+//= require base/plugins/jquery-bez/jquery.bez.min
+//= require base/plugins/jquery-ios-list/jquery.ioslist.min
+//= require base/plugins/jquery-actual/jquery.actual.min
+//= require base/plugins/jquery-scrollbar/jquery.scrollbar.min
+//= require base/plugins/select2/js/select2.full.min
+//= require base/plugins/classie/classie
+//= require base/plugins/switchery/js/switchery.min
+//= require base/plugins/nvd3/lib/d3.v3
+//= require base/plugins/nvd3/nv.d3.min
+//= require base/plugins/nvd3/src/utils
+//= require base/plugins/nvd3/src/tooltip
+//= require base/plugins/nvd3/src/interactiveLayer
+//= require base/plugins/nvd3/src/models/axis
+//= require base/plugins/nvd3/src/models/line
+//= require base/plugins/nvd3/src/models/lineWithFocusChart
+//= require base/plugins/mapplic/js/hammer
+//= require base/plugins/mapplic/js/jquery.mousewheel
+//= require base/plugins/mapplic/js/mapplic
+//= require base/plugins/rickshaw/rickshaw.min
+//= require base/plugins/jquery-metrojs/MetroJs.min
+//= require base/plugins/jquery-sparkline/jquery.sparkline.min
+//= require base/plugins/skycons/skycons
+//= require base/plugins/bootstrap-datepicker/js/bootstrap-datepicker
+//
+//= require pages/js/pages
