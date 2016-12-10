@@ -1,0 +1,41 @@
+<p class="p-t-35">Sign in to your D&B Tools account</p>
+<!-- START Login Form -->
+<%= form_for(resource, as: resource_name, url: session_path(resource_name), id: "form-login", class: "p-t-15", role: "form") do |f| %>
+  <!-- START Form Control-->
+  <div class="form-group form-group-default">
+    <%= f.label :email %>
+    <div class="controls">
+      <%= f.email_field :email, autofocus: true, placeholder: "e.g. mary@domain.com", class: "form-control", required: true %>
+    </div>
+  </div>
+  <!-- END Form Control-->
+  <!-- START Form Control-->
+  <div class="form-group form-group-default">
+    <%= f.label :password %>
+    <div class="controls">
+      <%= f.password_field :password, autocomplete: "off", class: "form-control", required: true %>
+    </div>
+  </div>
+  <!-- START Form Control-->
+  <div class="row">
+    <div class="col-md-6">
+      <% if devise_mapping.rememberable? -%>
+      <div class="checkbox ">
+        <%= f.check_box :remember_me %>
+        <%= f.label :remember_me %>
+      </div>
+      <% end %>
+    </div>
+    <div class="col-md-6 p-t-5">
+      <!-- <a href="#" class="text-info small">Help? Contact Support</a> -->
+    </div>
+  </div>
+  <!-- END Form Control-->
+  <div class="actions">
+    <%= f.submit "Log in", class: "btn btn-primary btn-cons m-t-10" %>
+  </div>
+<% end %>
+<!--END Login Form-->
+
+
+<%= render "users/shared/links" %>
